@@ -3,7 +3,7 @@ set -eu
 
 touch go.mod
 
-PROJECT_NAME=EwanValentine
+PROJECT_NAME=GoServerless
 CURRENT_DIR=$(basename $(pwd))
 
 CONTENT=$(cat <<-EOD

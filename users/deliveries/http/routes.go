@@ -131,11 +131,7 @@ func Routes() (*mux.Router, error) {
 	delivery := &delivery{usecase}
 
 	r := mux.NewRouter()
-	r.HandleFunc("/users", delivery.Create).Methods("POST")
-	r.HandleFunc("/users", delivery.GetAll).Methods("GET")
-	r.HandleFunc("/users/{id}", delivery.Get).Methods("GET")
-	r.HandleFunc("/users/{id}", delivery.Update).Methods("PUT")
-	r.HandleFunc("/users/{id}", delivery.Delete).Methods("DELETE")
+	r.HandleFunc("/status", delivery.Create).Methods("POST")
 
 	return r, nil
 }
