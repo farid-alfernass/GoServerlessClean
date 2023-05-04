@@ -3,7 +3,7 @@ module github.com/EwanValentine/serverless-api-example
 require (
 	github.com/DATA-DOG/go-sqlmock v1.3.3 // indirect
 	github.com/aws/aws-lambda-go v1.13.1
-	github.com/aws/aws-sdk-go v1.33.0
+	github.com/aws/aws-sdk-go v1.34.0
 	github.com/aws/aws-xray-sdk-go v1.0.0-rc.13
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/go-playground/locales v0.12.1 // indirect
